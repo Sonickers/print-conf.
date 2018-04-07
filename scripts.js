@@ -55,6 +55,8 @@ $(document).ready(function() {
 		$(".fa-car").css('color', color);
 	});
 
+	
+
 
 });
 

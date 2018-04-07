@@ -39,12 +39,12 @@
 		{
 			"name": "3.6L 374BHP",
 			"price": 50,
-			"gearboxes": [0,1]
+			"gearboxes": [1]
 		},
 		{
 			"name": "2.0L 166BHP",
 			"price": 30,
-			"gearboxes": [0,1]
+			"gearboxes": [1]
 		}
 	],
 	"gearboxes": [
