@@ -30,6 +30,11 @@
 	color: white;
 }
 
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
 .summary-text {
 	float: right;
 }
