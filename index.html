@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="rekrut.css">
+  <title>Zadanie rekrutacyjne</title>
+</head>
+<body>
+
+  <div class="d-none js-btn-template">
+    <button type="button" class="btn-car-selector btn btn-outline-secondary" disabled></button>
+  </div>
+
+  <div class="container pt-5">
+    <div class="section-car-selector">
+      <div class="row">
+        <div class="col-md-9">
+          <h4>CKONFIG 5.1</h4>
+          <h5>Model</h5>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div id="models" class="btn-group mr-2 w-100" role="group" aria-label="First group">
+              <!-- models will go here -->
+            </div>
+          </div>
+          <h5 class="pt-3">Engine</h5>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div id="engines" class="btn-group mr-2 w-100" role="group" aria-label="Second group">
+              <!-- engines will go here -->
+            </div>
+          </div>
+          <h5 class="pt-3">Gearbox</h5>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div id="gearboxes" class="btn-group mr-2 w-50" role="group" aria-label="Third group">
+              <!-- gearboxes will go here -->
+            </div>
+          </div>
+          <h5 class="pt-3">Color</h5>
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group btn-group-color btn-group-color.focus mr-2 w-25" role="group" aria-label="Fourth group">
+              <button type="button" class="btn btn-color btn-outline-secondary active" data-color="#FF0000" data-name="Rosso" style="background-color: #FF0000;"> </button>
+              <button type="button" class="btn btn-color btn-outline-secondary" data-color="#D0D0D0" data-name="Silver" style="background-color: #D0D0D0;"> </button>
+              <button type="button" class="btn btn-color btn-outline-secondary" data-color="#D88756" data-name="Gold" style="background-color: #D88756;"> </button>
+              <button type="button" class="btn btn-color btn-outline-secondary" data-color="#000000" data-name="Black" style="background-color: black;"> </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 section-chose pr-4 pl-4">
+          <h5 class="summary-text pt-4 pb-4">Summary</h5>
+          <div class="summary-icon mb-2">
+            <i class="fas fa-car"></i>
+          </div>
+          <ul class="car-specs pt-2">
+            <li>Model:</li>
+            <li>Engine:</li>
+            <li>Gearbox:</li>
+            <li>Color:</li>   
+            <br>
+            <li>Price:</li>         
+          </ul>          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>

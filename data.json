@@ -1,0 +1,60 @@
+{
+	"models": [
+		{
+			"id": "model1",
+			"name": "PRO RS3",
+			"price": 100,
+			"engines": [0,1,2,3]
+		},
+		{
+			"id": "model2",
+			"name": "UBER RS2",
+			"price": 90,
+			"engines": [1,2,3]
+		},
+		{
+			"id": "model3",
+			"name": "STANDARD",
+			"price": 70,
+			"engines": [2,3]
+		},
+		{
+			"id": "model4",
+			"name": "WK",
+			"price": 50,
+			"engines": [3]
+		}
+	],
+	"engines": [
+		{
+			"name": "5.2L 532BHP",
+			"price": 100,
+			"gearboxes": [0]
+		},
+		{
+			"name": "4.2L 443BHP",
+			"price": 70,
+			"gearboxes": [0,1]
+		},
+		{
+			"name": "3.6L 374BHP",
+			"price": 50,
+			"gearboxes": [0,1]
+		},
+		{
+			"name": "2.0L 166BHP",
+			"price": 30,
+			"gearboxes": [0,1]
+		}
+	],
+	"gearboxes": [
+		{
+			"name": "Automatic",
+			"price": 100
+		},
+		{
+			"name": "Manual",
+			"price": 50
+		}
+	]
+}
