@@ -25,6 +25,7 @@
 			"engines": [3]
 		}
 	],
+
 	"engines": [
 		{
 			"name": "5.2L 532BHP",
@@ -47,6 +48,7 @@
 			"gearboxes": [1]
 		}
 	],
+
 	"gearboxes": [
 		{
 			"name": "Automatic",
@@ -56,5 +58,24 @@
 			"name": "Manual",
 			"price": 50
 		}
+	],
+	"color": [
+		{
+			"name": "Rosso",
+			"rgb": "rgb(255, 0, 0)"
+		},
+		{
+			"name": "Silver",
+			"rgb": "rgb(208, 208, 208)"
+		},
+		{
+			"name": "Gold",
+			"rgb": "rgb(216, 135, 86)"
+		},
+		{
+			"name": "Black",
+			"rgb": "rgb(0, 0, 0)"
+		}
+
 	]
 }
