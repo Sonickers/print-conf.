@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	function totalPrice() {
+	}
+
 	$.getJSON('/data.json', function(json) {
 		const models = json.models;
 		const engines = json.engines;
@@ -10,6 +13,7 @@ $(document).ready(function() {
 			const btnTemplate = $('.js-btn-template > button').clone();
 			btnTemplate.html(model.name);
 			btnTemplate.attr('disabled', false);
+			btnTemplate.data('price', model.price);
 
 			btnTemplate.on('click', function() {
 				$('.right-model').html(model.name);
@@ -19,6 +23,10 @@ $(document).ready(function() {
 				model.engines.forEach(function(index) {
 					$('#engines button').eq(index).attr('disabled', false);
 				});
+				totalPrice();
+				// let totalPrice = parseInt($('.right-price').html());
+				// totalPrice += model.price;
+				// $('.right-price').html(totalPrice);
 			});
 			modelDiv.append(btnTemplate);
 		});
@@ -73,9 +81,5 @@ $(document).ready(function() {
 			gearboxDiv.append(btnTemplate);
 		});
 	});
-
-	
-
-
 });
 
