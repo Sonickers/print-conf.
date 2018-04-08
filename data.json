@@ -59,7 +59,7 @@
 			"price": 50
 		}
 	],
-	"color": [
+	"colors": [
 		{
 			"name": "Rosso",
 			"rgb": "rgb(255, 0, 0)"

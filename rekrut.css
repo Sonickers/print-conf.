@@ -1,6 +1,6 @@
 .btn-car-selector {	
-	background-color: #DFDFDF;
-	color: #2B2B2B;
+	background-color: #9DB5C1;
+	color: #192939;
 	margin-right: 6px;
 	border-radius: 0;
 	border: none; 
@@ -8,13 +8,13 @@
 }
 
 .btn-group > .btn-outline-secondary.btn-car-selector.active {
-	background-color: #2B2B2B;
-	color: white;
+	background-color: #192939;
+	color: #9DB5C1;
 }
 
 .btn-car-selector:hover {
-	background-color: #BDBDBD;
-	color: #424242;
+	background-color: #7695A7;
+	color: #192939;
 }
 
 .btn-car-selector:disabled {
@@ -26,8 +26,8 @@
 }
 
 .section-chose {
-	background-color: black;
-	color: white;
+	background-color: #192939;
+	color: #9DB5C1;
 }
 
 .container {
@@ -74,13 +74,20 @@ ul.car-specs {
 
 h5 {
 	font-size: 20px;
+	color: #192939;
 }
 
 h4 {
 	font-weight: bold; 
 	font-size: 23px;
+	color: #192939;
 }
 
-.color-text-right {
+.right {
 	float: right;
+}
+
+h3 {
+	font-size: 17px;
+	color: #9DB5C1;
 }
