@@ -7,7 +7,7 @@ $(document).ready(function() {
 		});
 	}
 
-	$.getJSON('/data.json', function(json) {
+	$.getJSON('data.json', function(json) {
 		const models = json.models;
 		const engines = json.engines;
 		const gearboxes = json.gearboxes;
