@@ -1,5 +1,10 @@
 $(document).ready(function() {
 	function totalPrice() {
+		var sum = 0;
+		$('.btn-car-selector.active').each(function() {
+			sum += parseInt($(this).data('price'));
+			$('.right-price').html(sum);
+		});
 	}
 
 	$.getJSON('/data.json', function(json) {
@@ -24,9 +29,6 @@ $(document).ready(function() {
 					$('#engines button').eq(index).attr('disabled', false);
 				});
 				totalPrice();
-				// let totalPrice = parseInt($('.right-price').html());
-				// totalPrice += model.price;
-				// $('.right-price').html(totalPrice);
 			});
 			modelDiv.append(btnTemplate);
 		});
@@ -35,6 +37,7 @@ $(document).ready(function() {
 		engines.forEach(function(engine) {
 			const btnTemplate = $('.js-btn-template > button').clone();
 			btnTemplate.html(engine.name);
+			btnTemplate.data('price', engine.price);
 			btnTemplate.on('click', function() {
 				$('.right-engine').html(engine.name);
 				$('#engines button, #gearboxes button').removeClass('active');
@@ -43,6 +46,7 @@ $(document).ready(function() {
 				engine.gearboxes.forEach(function(index) {
 					$('#gearboxes button').eq(index).attr('disabled', false);
 				});
+				totalPrice();
 			});
 			engineDiv.append(btnTemplate);
 		});
@@ -73,10 +77,12 @@ $(document).ready(function() {
 		gearboxes.forEach(function(gearbox) {
 			const btnTemplate = $('.js-btn-template > button').clone();
 			btnTemplate.html(gearbox.name);
+			btnTemplate.data('price', gearbox.price);
 			btnTemplate.on('click', function() {
 				$('.right-gearbox').html(gearbox.name);
 				$('#gearboxes button').removeClass('active');
 				$(this).addClass('active');
+				totalPrice();
 			});
 			gearboxDiv.append(btnTemplate);
 		});
