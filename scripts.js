@@ -24,6 +24,7 @@ $(document).ready(function() {
 				$('.right-model').html(model.name);
 				$('#models button, #engines button, #gearboxes button').removeClass('active');
 				$(this).addClass('active');
+				$('.right-engine, .right-gearbox').html('');
 				$('#engines button, #gearboxes button').attr('disabled', true);
 				model.engines.forEach(function(index) {
 					$('#engines button').eq(index).attr('disabled', false);
@@ -41,6 +42,7 @@ $(document).ready(function() {
 			btnTemplate.on('click', function() {
 				$('.right-engine').html(engine.name);
 				$('#engines button, #gearboxes button').removeClass('active');
+				$('.right-gearbox').html('');
 				$(this).addClass('active');
 				$('#gearboxes button').attr('disabled', true);
 				engine.gearboxes.forEach(function(index) {
