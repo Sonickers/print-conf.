@@ -25,6 +25,7 @@ $(document).ready(function() {
 				$('#brands button, #models button, #personalisations button').removeClass('active');
 				$(this).addClass('active');
 				$('.right-model, .right-personalisation').html('');
+				$('.input-personalisation, .sum-ptext').hide();
 				$('#models button, #personalisations button').attr('disabled', true);
 				brand.models.forEach(function(index) {
 					$('#models button').eq(index).attr('disabled', false);
@@ -43,6 +44,7 @@ $(document).ready(function() {
 				$('.right-model').html(model.name);
 				$('#models button, #presonalisations button').removeClass('active');
 				$('.right-personalisation').html('');
+				$('.input-personalisation, .sum-ptext').hide();
 				$(this).addClass('active');
 				$('#personalisations button').attr('disabled', true);
 				model.personalisations.forEach(function(index) {
@@ -85,8 +87,22 @@ $(document).ready(function() {
 				$('#personalisations button').removeClass('active');
 				$(this).addClass('active');
 				totalPrice();
+				if (personalisation.name == 'Yes') {
+					$('.input-personalisation').show();
+					$('.sum-ptext').show();
+				}
+				else {
+					$('.input-personalisation').hide();
+					$('.sum-ptext').hide();
+				}
 			});
 			personalisationDiv.append(btnTemplate);
+		});
+
+		$('.js-form-ptext').on('submit', function(event) {
+			event.preventDefault();
+			var ptext = $('#ptext').val();
+			$('.right-ptext').html(ptext);
 		});
 	});
 });
