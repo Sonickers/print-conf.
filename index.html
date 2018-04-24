@@ -36,12 +36,26 @@
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div id="personalisations" class="btn-group mr-2 w-50" role="group" aria-label="Third group">
               <!-- presonals will go here -->
-            </div>
+            </div>            
           </div>
+
+          <div class="input-personalisation" style="display: none;">
+            <form>
+              <div class="pt-3">
+                <label for="uname">Your text: </label>
+                <input type="text" id="uname" name="name" required size="14"
+                minlength="4" maxlength="12">
+                <span class="validity"></span>
+              </div>
+              <div>
+                <button>Submit</button>
+              </div>
+            </form>
+          </div>
+
           <h5 class="pt-3">Color:</h5>
           <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div id="colors" class="btn-group btn-group-color btn-group-color.focus mr-2 w-25" role="group" aria-label="Fourth group">
-
             </div>
           </div>
         </div>
@@ -52,11 +66,11 @@
             <i class="fas fa-stethoscope"></i>
           </div>
           <ul class="stethoscope-specs pt-2">
-              <li><span>Brand:<span> <span class="right-brand right"> </span></li>
-              <li><span>Model:<span> <span class="right-model right"> </span></li>
-              <li><span>Personalisation:</span> <span class="right-personalisation right"> </span></li>
-              <li><span>Color:</span> <span class="right-color right"> </span></li>   
-              <li class="mt-3"><span>Price:</span> <span class="right">$<span class="right-price">0</span></span></li>  
+            <li><span>Brand:<span> <span class="right-brand right"> </span></li>
+            <li><span>Model:<span> <span class="right-model right"> </span></li>
+            <li><span>Personalisation:</span> <span class="right-personalisation right"> </span></li>
+            <li><span>Color:</span> <span class="right-color right"> </span></li>   
+            <li class="mt-3"><span>Price:</span> <span class="right">$<span class="right-price">0</span></span></li>  
           </ul>          
         </div>
       </div>
