@@ -4,7 +4,7 @@ body {
 
 .btn-stethoscope-selector {	
 	background-color: white;
-	color: #0C8599;
+	color: black;
 	margin-right: 6px;
 	border-radius: 25%;
 	border: 1px solid #15AABF; 
@@ -12,16 +12,14 @@ body {
 }
 
 .btn-group > .btn-outline-secondary.btn-stethoscope-selector.active {
-	background-color: #99E9F2;
+	background-color: #15AABF;
 	color: black;
 	color: black;
-	font-weight: bold;
 }
 
 .btn-stethoscope-selector:hover {
-	background-color: #99E9F2;
+	background-color: #15AABF;
 	color: black;
-	font-weight: bold;
 }
 
 .btn-stethoscope-selector:disabled {
@@ -36,7 +34,6 @@ input[type=text]
 {
 	border: 1px solid #15AABF; 
 	color: black;
-	font-weight: bold;
 }
 .section-chose {
 	background-color: #99E9F2;
@@ -49,7 +46,8 @@ input[type=text]
 }
 
 .summary-text {
-	float: right;
+	text-align: center;
+	font-size: 23px;
 	font-weight: bold;
 }
 
@@ -127,4 +125,15 @@ h3 {
     color: #fff;
     background-color: #15AABF;
     border-color: #15AABF;
+}
+
+.btn-buy {
+	background-color: #15AABF;
+	color: white;
+	float: right;
+}
+
+.btn-buy:hover {
+	background-color: white;
+	color: #15AABF;
 }
