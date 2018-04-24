@@ -106,6 +106,7 @@ h3 {
 }
 
 .btn-primary {
-	background-color: #0C8599;
-	color: black;
+    color: #fff;
+    background-color: #15AABF;
+    border-color: #15AABF;
 }

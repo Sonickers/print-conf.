@@ -4,7 +4,6 @@
 			"name": "Littman",
 			"price": 300,
 			"models": [0,1,2,3]
-			
 		},
 		{
 			"name": "Spirit Medical",
@@ -76,6 +75,21 @@
 		{
 			"name": "Orange",
 			"rgb": "rgb(234, 93, 63)"
+		},
+
+		{
+			"name": "Light Sky Blue",
+			"rgb": "rgb(135,206,250)"
+		},
+
+		{
+			"name": "Teal",
+			"rgb": "rgb(0,128,128)"
+		},
+
+		{
+			"name": "Yellow-green",
+			"rgb": "rgb(154,205,50)"
 		}
 
 	]
