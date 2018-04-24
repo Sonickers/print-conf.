@@ -1,80 +1,80 @@
 {
+	"brands": [
+		{
+			"name": "Littman",
+			"price": 300,
+			"models": [0,1,2,3]
+		},
+		{
+			"name": "Spirit Medical",
+			"price": 150,
+			"models": [0,1,2]
+		},
+		{
+			"name": "NaturFarm",
+			"price": 100,
+			"models": [0,1]
+		},
+		{
+			"name": "Luxamed",
+			"price": 100,
+			"models": [1,2,3]
+		}
+	],
+
 	"models": [
 		{
 			"id": "model1",
-			"name": "PRO RS3",
-			"price": 100,
-			"engines": [0,1,2,3]
+			"name": "Intern",
+			"price": 369,
+			"personalisations": [0,1]
 		},
 		{
 			"id": "model2",
-			"name": "UBER RS2",
-			"price": 90,
-			"engines": [1,2,3]
+			"name": "Cardio",
+			"price": 576,
+			"personalisations": [0,1]
 		},
 		{
 			"id": "model3",
-			"name": "STANDARD",
-			"price": 70,
-			"engines": [2,3]
+			"name": "Pediatric",
+			"price": 854,
+			"personalisations": [1]
 		},
 		{
 			"id": "model4",
-			"name": "WK",
-			"price": 50,
-			"engines": [3]
+			"name": "Anesthesia",
+			"price": 789,
+			"personalisations": [1]
 		}
 	],
 
-	"engines": [
+	"personalisations": [
 		{
-			"name": "5.2L 532BHP",
-			"price": 100,
-			"gearboxes": [0]
+			"name": "Yes",
+			"price": 250
 		},
 		{
-			"name": "4.2L 443BHP",
-			"price": 70,
-			"gearboxes": [0,1]
-		},
-		{
-			"name": "3.6L 374BHP",
-			"price": 50,
-			"gearboxes": [1]
-		},
-		{
-			"name": "2.0L 166BHP",
-			"price": 30,
-			"gearboxes": [1]
-		}
-	],
-
-	"gearboxes": [
-		{
-			"name": "Automatic",
-			"price": 100
-		},
-		{
-			"name": "Manual",
-			"price": 50
+			"name": "No",
+			"price": 0
 		}
 	],
 	"colors": [
 		{
-			"name": "Rosso",
-			"rgb": "rgb(255, 0, 0)"
-		},
-		{
-			"name": "Silver",
-			"rgb": "rgb(208, 208, 208)"
-		},
-		{
-			"name": "Gold",
-			"rgb": "rgb(216, 135, 86)"
-		},
-		{
 			"name": "Black",
 			"rgb": "rgb(0, 0, 0)"
+		},
+		{
+			"name": "Pink",
+			"rgb": "rgb(218, 119, 150)"
+		},
+		{
+			"name": "Blue",
+			"rgb": "rgb(3, 38, 76)"
+		},
+		{
+			"name": "Orange",
+			"rgb": "rgb(234, 93, 63)"
 		}
 
 	]

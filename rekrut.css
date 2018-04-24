@@ -1,23 +1,30 @@
-.btn-car-selector {	
-	background-color: #9DB5C1;
-	color: #192939;
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn-stethoscope-selector {	
+	background-color: #3BC9DB;
+	color: #0C8599;
 	margin-right: 6px;
 	border-radius: 0;
 	border: none; 
 	flex-flow: wrap;
 }
 
-.btn-group > .btn-outline-secondary.btn-car-selector.active {
-	background-color: #192939;
-	color: #9DB5C1;
+.btn-group > .btn-outline-secondary.btn-stethoscope-selector.active {
+	background-color: #15AABF;
+	color: black;
+	color: black;
+	font-weight: bold;
 }
 
-.btn-car-selector:hover {
-	background-color: #7695A7;
-	color: #192939;
+.btn-stethoscope-selector:hover {
+	background-color: #15AABF;
+	color: black;
+	font-weight: bold;
 }
 
-.btn-car-selector:disabled {
+.btn-stethoscope-selector:disabled {
 	cursor: not-allowed;
 }
 
@@ -26,8 +33,8 @@
 }
 
 .section-chose {
-	background-color: #192939;
-	color: #9DB5C1;
+	background-color: #99E9F2;
+	color: #0C8599;
 }
 
 .container {
@@ -44,18 +51,22 @@
 	display: flex;
 	justify-content: center;
 	background-color: white;
-	color: red;
+	color: black;
 	align-items: center;
 	width: 100%;
 	height: 35%;
 }
 
-ul.car-specs {
+ul.stethoscope-specs {
 	list-style: none;
 	float: left;
 	padding: 0;
 	font-size: 14px;
 	width: 100%;
+}
+
+li {
+	border-bottom: 1px solid #15AABF;
 }
 
 .btn-color {
@@ -69,7 +80,7 @@ ul.car-specs {
 
 .btn-group.btn-group-color .btn-color.active,
 .btn-group.btn-group-color .btn-color.btn-outline-secondary:focus {
-	box-shadow: 0 0 0 0.1rem black;
+	box-shadow: 0 0 0 0.7px black;
 }
 
 h5 {
@@ -79,8 +90,10 @@ h5 {
 
 h4 {
 	font-weight: bold; 
-	font-size: 23px;
-	color: #192939;
+	font-size: 27px;
+	color: #0C8599;
+	display: flex;
+    justify-content: center;
 }
 
 .right {
@@ -89,5 +102,5 @@ h4 {
 
 h3 {
 	font-size: 17px;
-	color: #9DB5C1;
+	color: #0C8599;
 }
