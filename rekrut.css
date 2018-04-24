@@ -110,3 +110,14 @@ h3 {
     background-color: #15AABF;
     border-color: #15AABF;
 }
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #15AABF;
+    border-color: #15AABF;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #15AABF;
+    border-color: #15AABF;
+}
