@@ -52,7 +52,7 @@
 	"personalisations": [
 		{
 			"name": "Yes",
-			"price": 250
+			"price": 150
 		},
 		{
 			"name": "No",
@@ -69,24 +69,21 @@
 			"rgb": "rgb(218, 119, 150)"
 		},
 		{
-			"name": "Blue",
-			"rgb": "rgb(3, 38, 76)"
+			"name": "Royal Blue",
+			"rgb": "rgb(65,105,225)"
 		},
 		{
 			"name": "Orange",
 			"rgb": "rgb(234, 93, 63)"
 		},
-
 		{
 			"name": "Light Sky Blue",
 			"rgb": "rgb(135,206,250)"
 		},
-
 		{
 			"name": "Teal",
 			"rgb": "rgb(0,128,128)"
 		},
-
 		{
 			"name": "Yellow-green",
 			"rgb": "rgb(154,205,50)"
