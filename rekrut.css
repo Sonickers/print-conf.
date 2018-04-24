@@ -104,3 +104,8 @@ h3 {
 	font-size: 17px;
 	color: #0C8599;
 }
+
+.btn-primary {
+	background-color: #0C8599;
+	color: black;
+}
