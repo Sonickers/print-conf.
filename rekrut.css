@@ -13,13 +13,12 @@ body {
 
 .btn-group > .btn-outline-secondary.btn-stethoscope-selector.active {
 	background-color: #15AABF;
-	color: black;
-	color: black;
+	color: white;
 }
 
 .btn-stethoscope-selector:hover {
 	background-color: #15AABF;
-	color: black;
+	color: white;
 }
 
 .btn-stethoscope-selector:disabled {
